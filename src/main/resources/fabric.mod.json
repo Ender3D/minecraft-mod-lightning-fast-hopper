@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "lightningfasthopper",
+	"version": "${version}",
+	"name": "lightningfasthopper",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/lightning-fast-hopper-high-volume-sorting-item",
+		"sources": "https://github.com/Ender3D/minecraft-mod-lightning-fast-hopper.git",
+		"issues": "https://github.com/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/lightningfasthopper/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ndrsbox.lightningfasthopper.Lightningfasthopper"
+		],
+		"client": [
+			"com.ndrsbox.lightningfasthopper.client.LightningfasthopperClient"
+		]
+	},
+	"mixins": [
+		"lightningfasthopper.mixins.json",
+		{
+			"config": "lightningfasthopper.client.mixins.json",
+			"environment": "client",
+			"accessWidener": "lightningfasthopper.accesswidener"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

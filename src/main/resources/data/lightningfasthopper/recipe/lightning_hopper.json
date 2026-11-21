@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "H": "minecraft:hopper",
+    "R": "minecraft:redstone_block"
+  },
+  "pattern": [
+    "G G",
+    "G H",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "lightningfasthopper:lightning_hopper"
+  }
+}
