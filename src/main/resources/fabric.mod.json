@@ -10,7 +10,7 @@
 	"contact": {
 		"homepage": "https://www.curseforge.com/minecraft/mc-mods/lightning-fast-hopper-high-volume-sorting-item",
 		"sources": "https://github.com/Ender3D/minecraft-mod-lightning-fast-hopper.git",
-		"issues": "https://github.com/issues"
+		"issues": "https://github.com/Ender3D/minecraft-mod-lightning-fast-hopper/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/lightningfasthopper/icon.png",
